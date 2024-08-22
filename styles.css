@@ -1,44 +1,63 @@
-/* Basic reset */
+/* Reset basic styles */
 body, ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    box-sizing: border-box;
 }
 
-/* Body styling */
+/* Body and font styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header styling */
 header {
-    background-color: #333;
+    background-color: #282c34;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Main content styling */
-main {
-    padding: 20px;
-}
-
-h1 {
+header h1 {
     margin: 0;
+    font-size: 2.5em;
+    font-weight: 600;
 }
 
+/* Main content area */
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Section headings */
 h2 {
     background-color: #444;
     color: white;
-    padding: 10px;
+    padding: 15px;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation menu styling */
 .menu {
     display: flex;
-    justify-content: center; /* Center the menu */
+    justify-content: center;
     background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .menu li {
@@ -51,24 +70,38 @@ h2 {
     font-size: 16px;
     padding: 10px 20px;
     display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
 }
 
 .menu a:hover {
-    background-color: #555; /* Darker background on hover */
-    border-radius: 5px;
+    background-color: #555;
+    color: #ddd;
 }
 
-/* General link styling */
+/* Styling for lists */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
 a {
     text-decoration: none;
     color: #0066cc;
+    transition: color 0.3s ease;
 }
 
 a:hover {
+    color: #004499;
     text-decoration: underline;
 }
 
-/* Responsive Menu */
+/* Responsive Menu for smaller screens */
 @media (max-width: 600px) {
     .menu {
         flex-direction: column;
@@ -78,4 +111,20 @@ a:hover {
     .menu li {
         margin: 10px 0;
     }
+}
+
+/* Additional styles for better layout */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
 }
