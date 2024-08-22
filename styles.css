@@ -18,7 +18,7 @@ body {
 
 /* Header styling */
 header {
-    background-color: #282c34;
+    background-color: #26cc7f;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -40,7 +40,7 @@ main {
 
 /* Section headings */
 h2 {
-    background-color: #2739dd;
+    background-color: #4c58c0;
     color: white;
     padding: 15px;
     font-size: 1.8em;
@@ -92,12 +92,12 @@ li {
 
 a {
     text-decoration: none;
-    color: #0066cc;
+    color: #4f96de;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #004499;
+    color: #5293e1;
     text-decoration: underline;
 }
 
