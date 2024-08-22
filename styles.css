@@ -40,7 +40,7 @@ main {
 
 /* Section headings */
 h2 {
-    background-color: #444;
+    background-color: #2739dd;
     color: white;
     padding: 15px;
     font-size: 1.8em;
@@ -53,7 +53,7 @@ h2 {
 .menu {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #1bd676;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 4px;
@@ -75,7 +75,7 @@ h2 {
 }
 
 .menu a:hover {
-    background-color: #555;
+    background-color: #aa0b95;
     color: #ddd;
 }
 
