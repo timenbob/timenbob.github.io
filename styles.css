@@ -5,12 +5,36 @@ body, ul {
     list-style-type: none;
 }
 
-/* Header and navigation styling */
-header {
-    background-color: #333; /* Dark background */
-    padding: 10px 0;
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+
+/* Navigation menu styling */
 .menu {
     display: flex;
     justify-content: center; /* Center the menu */
@@ -32,6 +56,16 @@ header {
 .menu a:hover {
     background-color: #555; /* Darker background on hover */
     border-radius: 5px;
+}
+
+/* General link styling */
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive Menu */
