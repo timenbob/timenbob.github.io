@@ -1,6 +1,12 @@
 /* Reset basic styles */
-body, ul {
+body {
     margin-bottom: -20px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+ul {
+    margin-bottom: 20px;
     list-style-type: none;
     box-sizing: border-box;
 }
@@ -66,7 +72,7 @@ h3 {
     /*margin-top: 60px;
     padding-top: 40px;*/
     margin-bottom: -20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 
